@@ -1,0 +1,16 @@
+name: ShowRam
+version: 1.0.0
+author: hello@mattiamari.me
+website: https://github.com/mattiamari/showram
+api-version: 1.15
+description: Show the memory used and available to the JVM
+main: me.mattiamari.showram.ShowRam
+commands:
+    memory:
+        description: Show memory used by the JVM
+        usage: /memory
+        permission: memory
+permissions:
+    memory:
+        description: Allows /memory command
+        default: op
